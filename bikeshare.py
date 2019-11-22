@@ -20,6 +20,7 @@ def choice(prompt, choices=('y', 'n')):
 
     while True:
         choice = input(prompt).lower().strip()
+        #given an array of possible answers
         # terminate the program if the input is end
         if choice == 'end':
             raise SystemExit
