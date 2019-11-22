@@ -78,6 +78,7 @@ def get_filters():
 
 
 def load_data(city, month, day):
+    #load data for the specified filters of city(ies), months(s) and day(s) whereever applicable
     """Load data for the specified filters of city(ies), month(s) and
        day(s) whenever applicable.
 
